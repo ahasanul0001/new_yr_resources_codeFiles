@@ -1,0 +1,40 @@
+.scheduleBanner >.bannerContainer{
+    width: 1320px;
+    height: 482px;
+    border-radius: 16px;
+    background-image: linear-gradient(180.00deg, rgba(255, 0, 0, 0.1),rgba(255, 0, 0, 0) 100%);
+    margin-bottom: 120px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+.scheduleBanner .bannerContainer .text{
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 56px;
+    letter-spacing: 0%;
+    text-align: center;
+    text-transform: capitalize;
+}
+.scheduleBanner .bannerContainer span{
+    color: red;
+}
+.scheduleBanner .bannerContainer .joinBtn{
+    width: 167px;
+    height: 56px;
+    border-radius: 8px;
+    background: rgb(255, 0, 0);
+    border-style: none;
+    margin-top: 64px;
+}
+.scheduleBanner .bannerContainer .joinBtn a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-transform: uppercase;
+}
