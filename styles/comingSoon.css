@@ -1,0 +1,52 @@
+.comingSoon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 120px;
+}
+
+.comingSoon .pplImg{
+    width: 463px;
+    height: 463px;
+    background-image: url('../images/Ellipse\ 1.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    box-sizing: border-box;
+    border: 15px solid rgb(255, 0, 0);
+    border-radius: 50%;
+    margin-left: 70px;
+    margin-right: 118px;
+}
+.comingSoon .content1title{
+    color: rgb(255, 0, 0);
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 29px;
+    margin-bottom: 16px;
+}
+.comingSoon .content1subTitle{
+    color: rgb(7, 2, 17);
+    font-size: 48px;
+    font-weight: 900;
+    line-height: 60px;
+    text-transform: capitalize;
+    margin-bottom: 22px;
+}
+.comingSoon .content1text{  
+    width: 393px;
+    height: 128px;
+}
+
+.comingSoon .content2title{
+    color: rgb(255, 0, 0);
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 58px;
+    margin-bottom: 16px;
+    margin-top: 112px;
+}
+.comingSoon .content2text{
+    width: 276px;
+    height: 96px;
+    margin-bottom: 43px;
+}

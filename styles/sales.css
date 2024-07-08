@@ -1,0 +1,60 @@
+.salesContent{
+    margin: 120px auto auto 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.sales .subTitle{
+    color: rgb(7, 2, 17);
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 29px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin-bottom: 16px;
+}
+.sales .title{
+    color: rgb(7, 2, 17);
+    font-size: 72px;
+    font-weight: 900;
+    line-height: 91px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin-bottom: 28px;
+}
+.sales .text{
+    width: 1068px;
+    height: 96px;
+    text-align: center;
+}
+
+/* sales image design begins*/
+.salesDesign{
+    width: 1320px;
+    height: 662.07px;
+    margin: 64px auto 120px;
+    position: relative;
+}
+.salesDesign .solidRed{
+    position: absolute;
+    width: 1320px;
+    height: 229px;
+    border-radius: 16px 0px 16px 16px;
+    background: red;
+    top: 435px;
+}
+.salesDesign .mistryBox{
+    position: absolute;
+    z-index: 1;
+    width: 674.82px;
+    height: 577.96px;
+    left: 61px;
+    top: 0;
+}
+.salesDesign .discount{
+    position: absolute;
+    z-index: 1;
+    top: 77px;
+    right: 50px;
+}
